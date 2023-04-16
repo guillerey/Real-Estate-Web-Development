@@ -1,0 +1,166 @@
+:root {
+    --primario: #71b100;
+    --secundario: #e08709;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4 {
+    font-weight: 300;
+}
+.bg-info {
+    background-color:#71b100!important;
+}
+
+@media (min-width: 768px) {
+    .barra.bg-info{
+        background-color: transparent!important;
+    }
+    .header {
+        position: relative;
+    }
+    .header .barra {
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+    }
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.navbar-brand span {
+    font-weight: 900;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #ffffff!important;
+}
+
+/*dropdown*/
+.dropdown-menu {
+    background-color: #e08709;
+}
+.dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #71b100;
+}
+/**caption**/
+
+.carousel-caption h3 {
+    font-size: 2.4rem;
+}
+.bloque-info p {
+    font-size: 1.4rem;
+}
+.btn-warning {
+    background-color: #e08709;
+    border-color: #e08709;
+    color: #ffffff;
+    font-weight: 700;
+}
+.display-4 {
+    font-weight: 400;
+}
+/**sobre nosotros **/
+.sobre-nosotros h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.card-body h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+/**anuncios**/
+
+.anuncios .card {
+    margin-bottom: 2rem;
+}
+
+.card-precio {
+    font-size: 1.1rem;
+    color: #71b100;
+    text-align: center;
+}
+.card-text {
+    text-align: justify;
+}
+.card-descripcion img {
+    margin-right: 1rem;
+}
+/**encuentra**/
+.encuentra {
+    background-image: url(../img/casa210.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.encuentra .row {
+    height: 25rem;
+}
+.encuentra h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+
+/*BLOG*/
+
+.entrada h3:after {
+    content:"";
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: #71b100;
+}
+.meta span {
+    color: #e08709;
+}
+.btn-success {
+    background-color: #71b100;
+    font-weight: 700;
+}
+.btn-success:hover {
+    background-color: #609602;
+}
+
+/*testimoniales*/
+.testimoniales {
+    background-color: #71b100;
+}
+.testimoniales .carousel-item {
+    padding-left: 2rem;
+}
+.testimoniales .testimonial-texto {
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+}
+
+.testimoniales .testimonial-texto:before {
+    content: open-quote;
+    font-size: 4rem;
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    font-weight: 900;
+}
+.testimoniales span {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+/*FOOTER*/
+
+.footer.bg-dark {
+    background-color: #333333!important;
+}
+.footer .nav-link {
+    color: #ffffff;
+}
